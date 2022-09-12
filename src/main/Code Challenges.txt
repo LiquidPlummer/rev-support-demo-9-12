@@ -1,0 +1,41 @@
+Code challenges:
+
+Two primary disciplines at work:
+
+problem solving
+    identifying a finish line - identifying a solution to a given problem
+        for instance: reverse a given string
+
+code writing
+    how to turn our idea into code?
+    write everything down.
+    Start with defining our parameters: start and finish. What problem do we have to solve, and what info do we start with?
+    If we had to reverse a string, here's what we have so far:
+        I need to reverse a string
+        I have a given string
+
+    Now consider what tools we have to go from start to the finish line?
+    We can view the contents of a string
+    We can create new strings
+    We can tokenize/segment/break apart the string into individual characters or substrings
+
+    What are the steps to reverse a string?
+    start with a blank string we can add to
+    start with an iterator/cursor that helps us find the end of the string
+        int i = string.length()-1
+    look at the targeted letter - look at string.charAt(i) where i starts at the last character
+    write that letter - concatenate the letter into the new string
+    loop until i < 0, we do want i = 0 included because that is the first character in the original string
+
+
+
+
+
+
+    Make a peanut butter and jelly sandwich
+    get bread
+    fetch two slices
+    get butter knife to use
+    put pb on one slice with knife
+    put jelly on other slice with knife
+    put together with pb and j inside the bread
